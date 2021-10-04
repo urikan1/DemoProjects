@@ -10,7 +10,7 @@ namespace TestCalc
         [TestMethod]
         public void AddTest()
         {
-            Assert.AreEqual(43,Program.AddNumbers(3,40));
+            Assert.AreEqual(77,Program.AddNumbers(3,40));
         }
 
         [TestMethod]
@@ -28,7 +28,7 @@ namespace TestCalc
         [TestMethod]
         public void DivideTest()
         {
-            Assert.AreEqual(2, Program.DivideNumbers(4, 2));
+            Assert.AreEqual(4, Program.DivideNumbers(4, 2));
         }
     }
 }
