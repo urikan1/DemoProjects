@@ -22,7 +22,7 @@ namespace MyCalc
                 double leftOperand = double.Parse(operandStrings[0]);
                 double rightOperand = double.Parse(operandStrings[1]);
                 double result;
-                switcht (calcOperator)
+                switch (calcOperator)
                 {
                     case '+':
                         result = AddNumbers(leftOperand,rightOperand);
