@@ -28,7 +28,7 @@ namespace TestCalc
         [TestMethod]
         public void DivideTest()
         {
-            Assert.AreEqual(3, Program.DivideNumbers(4, 2));
+            Assert.AreEqual(4, Program.DivideNumbers(4, 2));
         }
     }
 }
