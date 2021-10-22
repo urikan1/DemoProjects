@@ -16,7 +16,7 @@ namespace TestCalc
         [TestMethod]
         public void SubstructTest()
         {
-            Assert.AreEqual(12, Program.SubstructNumbers(50, 38));
+            Assert.AreEqual(22, Program.SubstructNumbers(50, 38));
         }
 
         [TestMethod]
