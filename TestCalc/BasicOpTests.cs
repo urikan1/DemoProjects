@@ -22,7 +22,7 @@ namespace TestCalc
         [TestMethod]
         public void MultiplyTest()
         {
-            Assert.AreEqual(36, Program.MultiplyNumbers(4, 9));
+            Assert.AreEqual(32, Program.MultiplyNumbers(4, 8));
         }
 
         [TestMethod]
